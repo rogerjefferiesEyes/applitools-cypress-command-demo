@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es6",
+    "lib": ["es6", "dom", "ES2021.String"],
+    "types": [
+      "cypress",
+      "@applitools/eyes-cypress",
+      "node"
+    ],
+    "baseUrl": "./node_modules",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "/node_modules/cypress",
+    "**/*.ts"
+  ],
+  "typeRoots": ["node_modules/@types"],
+  "module": "CommonJS",
+  "preserveValueImports": false,
+  "resolveJsonModule": true,
+  "esModuleInterop": true,
+  "outDir": "dist",
+  "allowJs": true
+}

@@ -1,0 +1,9 @@
+.idea
+node_modules
+results
+*.png
+*.html
+cypress/videos
+cypress/logs
+cypress/reports
+.DS_Store
